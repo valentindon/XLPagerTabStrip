@@ -407,6 +407,6 @@ open class PagerTabStripViewController: UIViewController, UIScrollViewDelegate {
     private var pageBeforeRotate = 0
     private var lastSize = CGSize(width: 0, height: 0)
     internal var isViewRotating = false
-    internal var isViewAppearing = false
+    public var isViewAppearing = false
 
 }
